@@ -17,7 +17,7 @@ async function ms(name){
     elem.style.display='table';
 
     
-   // elem.style.animation = 'rotate'+Math.round(Math.random(2))+' 6s';
+    elem.style.animation = 'rotate'+Math.round(Math.random(2))+' 6s';
 
     
 
