@@ -1,0 +1,215 @@
+
+html{
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #17252A;
+    position: absolute;
+    background-color: #3AAFA9;
+    
+
+}
+.skill_body{
+    
+    display: block;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    width: 100%;
+    
+
+   
+    
+}
+header{
+    
+   font-size: 5vh; 
+   
+   font-style:oblique;
+   
+}
+
+
+
+#name_user{
+    border-style: none;
+    display: flex;  
+}
+
+#nav_list{
+    list-style: none;
+    display: flex;
+    
+    border-bottom: groove;
+}
+
+nav ul li { 
+    margin-right: 25px;
+ 
+    
+}
+
+
+
+
+button{
+    margin: 0;
+    background-color:#3AAFA9;
+    padding: 10px 50px;
+    width: 150px;
+    border-style: none;
+    border-right:groove;
+}
+
+button:hover{
+    background-color: #DEF2F1;
+}
+
+
+#profile{
+    display: block;
+}
+
+
+.btn_grp{
+   
+    transition: height 2s, width 2s, transform 5s;
+    transition-delay: 2s;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.btn_grp_display{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+
+
+#Skills{
+    display: none;
+}
+
+.skill_image{
+    width: 100%;
+    position: relative;
+    background-attachment:fixed;
+    
+    background-size: cover;
+   
+    background-repeat:no-repeat;
+    
+    
+}
+
+.text{
+    
+    font-size: 5vw;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    width: 50%;
+    height: 100vh;
+    background-color: none;
+    
+    
+}
+
+
+.exp_body{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#Experience{
+    
+    margin: 0;
+    width: 100vw;
+    margin-left: 160px;
+    overflow-x: hidden;
+    
+
+}
+.verti_nav{
+    width: 160px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #3AAFA9;
+    
+    
+    
+}
+
+#verti_nav_list{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    
+    
+}
+
+#verti_nav_list button{
+    border-style: none;
+}
+
+
+.wrapper{
+    
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+.sub_wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-size:cover;
+    background-position:center;
+    display: table;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    scroll-snap-align: start;
+
+}
+
+.sub_wrapper h2{
+    margin: 0px;
+    font-size: 48px;
+    text-align: center;
+    display:table-row;
+    color: #fefffe;
+    
+}
+
+.sub_wrapper .par_text{
+    display: table-footer-group;
+    vertical-align:baseline;
+    font-size: 24px;
+    text-align: center;
+    color: #fefffe;
+    background:none;
+    background-color: rgba(0, 0,0,0.5)
+    
+    
+}
+
+
+
+
+#Certification{
+    display: none;
+}
+
+
+
+
+
